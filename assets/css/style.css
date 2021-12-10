@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 40%;
     height: auto;
     background-color: white;
 }
@@ -61,6 +61,7 @@ nav a:hover {
 #banner img {
     width: 60%;
     height: auto;
+    border-radius: 10px;
 }
 
 .service {
@@ -70,7 +71,7 @@ nav a:hover {
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -83,4 +84,21 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+#about {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#closure {
+    background-color: red;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:aqua;
 }
